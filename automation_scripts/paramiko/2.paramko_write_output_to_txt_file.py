@@ -4,6 +4,10 @@ import time
 
 # sending command to the connection
 def send_command(conn, command):
+    if command == "enable":
+        conn.send("enable" + "\n")
+        conn.send("cisco" + "\n")
+        # conn.send_command(enablepass)
     conn.send(command + "\n")
     time.sleep(1)
 
@@ -41,12 +45,18 @@ def main():
         time.sleep(1)
         print(f"Logged in to {get_output(conn).strip()} successfuly")
         # commands to send to the hosts
-        commands = ["terminal length 0", "show version | include Software,"]
+        commands = [
+            "enable",
+            "terminal length 0",
+            "show run",
+            "show version | include Software,",
+        ]
         # empty string to get the output of commands for a host
         output = ""
         for command in commands:
             send_command(conn, command)
             output += get_output(conn)
+            breakpoint()
         # as soon as output is obtained, kill the connection
         conn.close()
 
