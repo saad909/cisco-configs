@@ -1,0 +1,35 @@
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: R1>
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: R1>
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: R1>
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: R1>
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: R1>
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: R1>
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: R1>

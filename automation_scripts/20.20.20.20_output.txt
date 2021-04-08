@@ -1,0 +1,4 @@
+terminal length 0
+R2>show version | include Software,
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+R2>
